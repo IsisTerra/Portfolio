@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     max-width: 1120px;
     background: linear-gradient(150deg, #030e0c, #0daeae);
+    background-size: 120% 120%;
 }
 
 .cabecalho {
@@ -38,18 +39,18 @@ body {
     font-size: 20px;
     text-transform: capitalize;
     padding: 10px 20px;
+    transition: 0.2s;
 }
 
 .cabecalho .menu li a:hover {
     background-color: #10c3c3;
     color: #fff;
     border-radius: 50px;
-    transition: 0.2s;
 }
 
 .home {
     display: flex;
-    min-width: calc(100vh - 125px);
+    min-height: calc(100vh - 175px);
     align-items: center;
     gap: 50px;
     justify-content: space-between;
@@ -115,7 +116,7 @@ body {
 }
 
 .projetos {
-    padding: 70px 0;
+    padding: 70px 0 70px;
 }
 
 .projetos .titulo {
